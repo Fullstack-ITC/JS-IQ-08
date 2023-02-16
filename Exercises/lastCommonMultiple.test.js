@@ -9,7 +9,7 @@ describe(__filename, () => {
     ${8}  | ${5}  | ${40}
     ${17} | ${11} | ${187}
     ${17} | ${5}  | ${85}
-    ${3}  | ${12} | ${12}
+    ${4}  | ${6}  | ${12}
     ${9}  | ${9}  | ${9}
   `("returns $expected when $a and $b are called", ({ a, b, expected }) => {
     expect(file.solution(a, b)).toBe(expected);
